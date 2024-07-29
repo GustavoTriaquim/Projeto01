@@ -31,6 +31,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.buttonMenu = new System.Windows.Forms.Button();
             this.buttonFechar = new System.Windows.Forms.Button();
+            this.textNota1 = new System.Windows.Forms.TextBox();
+            this.textNota2 = new System.Windows.Forms.TextBox();
+            this.textNota4 = new System.Windows.Forms.TextBox();
+            this.textNota3 = new System.Windows.Forms.TextBox();
+            this.buttonCalcular = new System.Windows.Forms.Button();
+            this.textAprovado = new System.Windows.Forms.TextBox();
+            this.textResultado = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.buttonClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -76,12 +85,150 @@
             this.buttonFechar.UseVisualStyleBackColor = true;
             this.buttonFechar.Click += new System.EventHandler(this.buttonFechar_Click);
             // 
+            // textNota1
+            // 
+            this.textNota1.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textNota1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textNota1.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textNota1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textNota1.Location = new System.Drawing.Point(218, 101);
+            this.textNota1.Name = "textNota1";
+            this.textNota1.Size = new System.Drawing.Size(120, 27);
+            this.textNota1.TabIndex = 4;
+            this.textNota1.Text = "Nota 1";
+            this.textNota1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textNota1.Enter += new System.EventHandler(this.textNota1_Enter);
+            this.textNota1.Leave += new System.EventHandler(this.textNota1_Leave);
+            // 
+            // textNota2
+            // 
+            this.textNota2.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textNota2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textNota2.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textNota2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textNota2.Location = new System.Drawing.Point(384, 101);
+            this.textNota2.Name = "textNota2";
+            this.textNota2.Size = new System.Drawing.Size(120, 27);
+            this.textNota2.TabIndex = 5;
+            this.textNota2.Text = "Nota 2";
+            this.textNota2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textNota2.Enter += new System.EventHandler(this.textNota2_Enter);
+            this.textNota2.Leave += new System.EventHandler(this.textNota2_Leave);
+            // 
+            // textNota4
+            // 
+            this.textNota4.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textNota4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textNota4.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textNota4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textNota4.Location = new System.Drawing.Point(384, 159);
+            this.textNota4.Name = "textNota4";
+            this.textNota4.Size = new System.Drawing.Size(120, 27);
+            this.textNota4.TabIndex = 6;
+            this.textNota4.Text = "Nota 4";
+            this.textNota4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textNota4.Enter += new System.EventHandler(this.textNota4_Enter);
+            this.textNota4.Leave += new System.EventHandler(this.textNota4_Leave);
+            // 
+            // textNota3
+            // 
+            this.textNota3.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textNota3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textNota3.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textNota3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textNota3.Location = new System.Drawing.Point(218, 159);
+            this.textNota3.Name = "textNota3";
+            this.textNota3.Size = new System.Drawing.Size(120, 27);
+            this.textNota3.TabIndex = 7;
+            this.textNota3.Text = "Nota 3";
+            this.textNota3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textNota3.Enter += new System.EventHandler(this.textNota3_Enter);
+            this.textNota3.Leave += new System.EventHandler(this.textNota3_Leave);
+            // 
+            // buttonCalcular
+            // 
+            this.buttonCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonCalcular.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonCalcular.FlatAppearance.BorderSize = 2;
+            this.buttonCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCalcular.Font = new System.Drawing.Font("JetBrains Mono", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCalcular.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonCalcular.Location = new System.Drawing.Point(269, 235);
+            this.buttonCalcular.Name = "buttonCalcular";
+            this.buttonCalcular.Size = new System.Drawing.Size(171, 40);
+            this.buttonCalcular.TabIndex = 8;
+            this.buttonCalcular.Text = "Calcular Media";
+            this.buttonCalcular.UseVisualStyleBackColor = true;
+            this.buttonCalcular.Click += new System.EventHandler(this.buttonCalcular_Click);
+            // 
+            // textAprovado
+            // 
+            this.textAprovado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textAprovado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textAprovado.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textAprovado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.textAprovado.Location = new System.Drawing.Point(298, 428);
+            this.textAprovado.Name = "textAprovado";
+            this.textAprovado.Size = new System.Drawing.Size(120, 27);
+            this.textAprovado.TabIndex = 9;
+            this.textAprovado.Text = "Estado";
+            this.textAprovado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textResultado
+            // 
+            this.textResultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textResultado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textResultado.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.textResultado.Location = new System.Drawing.Point(298, 380);
+            this.textResultado.Name = "textResultado";
+            this.textResultado.Size = new System.Drawing.Size(120, 27);
+            this.textResultado.TabIndex = 10;
+            this.textResultado.Text = "Nota Final";
+            this.textResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("JetBrains Mono", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.label2.Location = new System.Drawing.Point(262, 317);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(187, 37);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Resultados";
+            // 
+            // buttonClear
+            // 
+            this.buttonClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonClear.FlatAppearance.BorderSize = 2;
+            this.buttonClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonClear.Font = new System.Drawing.Font("JetBrains Mono", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonClear.Location = new System.Drawing.Point(638, 401);
+            this.buttonClear.Name = "buttonClear";
+            this.buttonClear.Size = new System.Drawing.Size(75, 40);
+            this.buttonClear.TabIndex = 12;
+            this.buttonClear.Text = "Limpar";
+            this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
+            // 
             // Programa_01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.ClientSize = new System.Drawing.Size(725, 511);
+            this.Controls.Add(this.buttonClear);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textResultado);
+            this.Controls.Add(this.textAprovado);
+            this.Controls.Add(this.buttonCalcular);
+            this.Controls.Add(this.textNota3);
+            this.Controls.Add(this.textNota4);
+            this.Controls.Add(this.textNota2);
+            this.Controls.Add(this.textNota1);
             this.Controls.Add(this.buttonFechar);
             this.Controls.Add(this.buttonMenu);
             this.Controls.Add(this.label1);
@@ -104,5 +251,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonMenu;
         private System.Windows.Forms.Button buttonFechar;
+        private System.Windows.Forms.TextBox textNota1;
+        private System.Windows.Forms.TextBox textNota2;
+        private System.Windows.Forms.TextBox textNota4;
+        private System.Windows.Forms.TextBox textNota3;
+        private System.Windows.Forms.Button buttonCalcular;
+        private System.Windows.Forms.TextBox textAprovado;
+        private System.Windows.Forms.TextBox textResultado;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button buttonClear;
     }
 }
