@@ -74,7 +74,7 @@
             this.Prog01.Name = "Prog01";
             this.Prog01.Size = new System.Drawing.Size(130, 40);
             this.Prog01.TabIndex = 2;
-            this.Prog01.Text = "Programa 01";
+            this.Prog01.Text = "Média";
             this.Prog01.UseVisualStyleBackColor = true;
             this.Prog01.Click += new System.EventHandler(this.Prog01_Click);
             // 
@@ -90,7 +90,7 @@
             this.Prog02.Name = "Prog02";
             this.Prog02.Size = new System.Drawing.Size(130, 40);
             this.Prog02.TabIndex = 3;
-            this.Prog02.Text = "Programa 02";
+            this.Prog02.Text = "Reajuste";
             this.Prog02.UseVisualStyleBackColor = true;
             this.Prog02.Click += new System.EventHandler(this.Prog02_Click);
             // 
