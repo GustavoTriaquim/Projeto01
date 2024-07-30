@@ -115,5 +115,15 @@ namespace Projeto01
         {
             Application.Exit();
         }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

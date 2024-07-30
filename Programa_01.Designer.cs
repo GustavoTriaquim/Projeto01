@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Programa_01));
             this.label1 = new System.Windows.Forms.Label();
             this.buttonMenu = new System.Windows.Forms.Button();
             this.buttonFechar = new System.Windows.Forms.Button();
@@ -45,55 +46,58 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("JetBrains Mono", 38F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
-            this.label1.Location = new System.Drawing.Point(220, 10);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 38F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.label1.Location = new System.Drawing.Point(236, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 50);
+            this.label1.Size = new System.Drawing.Size(250, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "Programa 01";
             // 
             // buttonMenu
             // 
+            this.buttonMenu.BackColor = System.Drawing.Color.Transparent;
             this.buttonMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonMenu.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonMenu.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.buttonMenu.FlatAppearance.BorderSize = 2;
             this.buttonMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMenu.Font = new System.Drawing.Font("JetBrains Mono", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.buttonMenu.Location = new System.Drawing.Point(12, 459);
             this.buttonMenu.Name = "buttonMenu";
             this.buttonMenu.Size = new System.Drawing.Size(75, 40);
             this.buttonMenu.TabIndex = 2;
             this.buttonMenu.Text = "Menu";
-            this.buttonMenu.UseVisualStyleBackColor = true;
+            this.buttonMenu.UseVisualStyleBackColor = false;
             this.buttonMenu.Click += new System.EventHandler(this.buttonMenu_Click);
             // 
             // buttonFechar
             // 
+            this.buttonFechar.BackColor = System.Drawing.Color.Transparent;
             this.buttonFechar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonFechar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonFechar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.buttonFechar.FlatAppearance.BorderSize = 2;
             this.buttonFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFechar.Font = new System.Drawing.Font("JetBrains Mono", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonFechar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFechar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.buttonFechar.Location = new System.Drawing.Point(638, 459);
             this.buttonFechar.Name = "buttonFechar";
             this.buttonFechar.Size = new System.Drawing.Size(75, 40);
             this.buttonFechar.TabIndex = 3;
             this.buttonFechar.Text = "Fechar";
-            this.buttonFechar.UseVisualStyleBackColor = true;
+            this.buttonFechar.UseVisualStyleBackColor = false;
             this.buttonFechar.Click += new System.EventHandler(this.buttonFechar_Click);
             // 
             // textNota1
             // 
-            this.textNota1.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textNota1.BackColor = System.Drawing.Color.Azure;
             this.textNota1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textNota1.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.textNota1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textNota1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textNota1.ForeColor = System.Drawing.Color.DimGray;
             this.textNota1.Location = new System.Drawing.Point(218, 101);
             this.textNota1.Name = "textNota1";
-            this.textNota1.Size = new System.Drawing.Size(120, 27);
+            this.textNota1.Size = new System.Drawing.Size(120, 24);
             this.textNota1.TabIndex = 4;
             this.textNota1.Text = "Nota 1";
             this.textNota1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -102,13 +106,13 @@
             // 
             // textNota2
             // 
-            this.textNota2.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textNota2.BackColor = System.Drawing.Color.Azure;
             this.textNota2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textNota2.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.textNota2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textNota2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textNota2.ForeColor = System.Drawing.Color.DimGray;
             this.textNota2.Location = new System.Drawing.Point(384, 101);
             this.textNota2.Name = "textNota2";
-            this.textNota2.Size = new System.Drawing.Size(120, 27);
+            this.textNota2.Size = new System.Drawing.Size(120, 24);
             this.textNota2.TabIndex = 5;
             this.textNota2.Text = "Nota 2";
             this.textNota2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -117,13 +121,13 @@
             // 
             // textNota4
             // 
-            this.textNota4.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textNota4.BackColor = System.Drawing.Color.Azure;
             this.textNota4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textNota4.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.textNota4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textNota4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textNota4.ForeColor = System.Drawing.Color.DimGray;
             this.textNota4.Location = new System.Drawing.Point(384, 159);
             this.textNota4.Name = "textNota4";
-            this.textNota4.Size = new System.Drawing.Size(120, 27);
+            this.textNota4.Size = new System.Drawing.Size(120, 24);
             this.textNota4.TabIndex = 6;
             this.textNota4.Text = "Nota 4";
             this.textNota4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -132,13 +136,13 @@
             // 
             // textNota3
             // 
-            this.textNota3.BackColor = System.Drawing.SystemColors.GrayText;
+            this.textNota3.BackColor = System.Drawing.Color.Azure;
             this.textNota3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textNota3.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.textNota3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textNota3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textNota3.ForeColor = System.Drawing.Color.DimGray;
             this.textNota3.Location = new System.Drawing.Point(218, 159);
             this.textNota3.Name = "textNota3";
-            this.textNota3.Size = new System.Drawing.Size(120, 27);
+            this.textNota3.Size = new System.Drawing.Size(120, 24);
             this.textNota3.TabIndex = 7;
             this.textNota3.Text = "Nota 3";
             this.textNota3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -147,42 +151,43 @@
             // 
             // buttonCalcular
             // 
+            this.buttonCalcular.BackColor = System.Drawing.Color.Transparent;
             this.buttonCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonCalcular.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonCalcular.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.buttonCalcular.FlatAppearance.BorderSize = 2;
             this.buttonCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCalcular.Font = new System.Drawing.Font("JetBrains Mono", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCalcular.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonCalcular.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.buttonCalcular.Location = new System.Drawing.Point(269, 235);
             this.buttonCalcular.Name = "buttonCalcular";
             this.buttonCalcular.Size = new System.Drawing.Size(171, 40);
             this.buttonCalcular.TabIndex = 8;
             this.buttonCalcular.Text = "Calcular Media";
-            this.buttonCalcular.UseVisualStyleBackColor = true;
+            this.buttonCalcular.UseVisualStyleBackColor = false;
             this.buttonCalcular.Click += new System.EventHandler(this.buttonCalcular_Click);
             // 
             // textAprovado
             // 
-            this.textAprovado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textAprovado.BackColor = System.Drawing.Color.LightBlue;
             this.textAprovado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textAprovado.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.textAprovado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
-            this.textAprovado.Location = new System.Drawing.Point(298, 428);
+            this.textAprovado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textAprovado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textAprovado.Location = new System.Drawing.Point(298, 427);
             this.textAprovado.Name = "textAprovado";
-            this.textAprovado.Size = new System.Drawing.Size(120, 27);
+            this.textAprovado.Size = new System.Drawing.Size(120, 24);
             this.textAprovado.TabIndex = 9;
             this.textAprovado.Text = "Estado";
             this.textAprovado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textResultado
             // 
-            this.textResultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textResultado.BackColor = System.Drawing.Color.LightBlue;
             this.textResultado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textResultado.Font = new System.Drawing.Font("JetBrains Mono SemiBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.textResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.textResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.textResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.textResultado.Location = new System.Drawing.Point(298, 380);
             this.textResultado.Name = "textResultado";
-            this.textResultado.Size = new System.Drawing.Size(120, 27);
+            this.textResultado.Size = new System.Drawing.Size(120, 24);
             this.textResultado.TabIndex = 10;
             this.textResultado.Text = "Nota Final";
             this.textResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -190,28 +195,30 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("JetBrains Mono", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
-            this.label2.Location = new System.Drawing.Point(262, 317);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.label2.Location = new System.Drawing.Point(273, 317);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 37);
+            this.label2.Size = new System.Drawing.Size(167, 32);
             this.label2.TabIndex = 11;
             this.label2.Text = "Resultados";
             // 
             // buttonClear
             // 
+            this.buttonClear.BackColor = System.Drawing.Color.Transparent;
             this.buttonClear.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.buttonClear.FlatAppearance.BorderSize = 2;
             this.buttonClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonClear.Font = new System.Drawing.Font("JetBrains Mono", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(241)))), ((int)(((byte)(241)))));
+            this.buttonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.buttonClear.Location = new System.Drawing.Point(638, 401);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(75, 40);
             this.buttonClear.TabIndex = 12;
             this.buttonClear.Text = "Limpar";
-            this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.UseVisualStyleBackColor = false;
             this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
             // Programa_01
@@ -219,6 +226,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(725, 511);
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.label2);
@@ -233,7 +241,6 @@
             this.Controls.Add(this.buttonMenu);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Programa_01";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
