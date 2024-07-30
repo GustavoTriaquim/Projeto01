@@ -36,13 +36,9 @@ namespace Projeto01
 
         private void Menu_MouseMove(object sender, MouseEventArgs e)
         {
-            if (Movendo == true)
-            {
-                Point dif = Point.Subtract(Cursor.Position, new Size(MoverCursor));
-                this.Location = Point.Add(MoverForms, new Size(dif));
-            }
+
         }
-        
+
         //Navegacao de formularios
         private void AbrirForm(Type formType)
         {

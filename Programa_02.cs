@@ -118,12 +118,9 @@ namespace Projeto01
 
         private void buttonClear_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            textSalario.Text = "Salário";
+            textSalario.Text = "Reajuste(%)";
+            textResultado.Text = "Salário Final";
         }
     }
 }

@@ -85,7 +85,6 @@
             this.label1.Size = new System.Drawing.Size(336, 44);
             this.label1.TabIndex = 4;
             this.label1.Text = "Calcular Reajuste";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textSalario
             // 
@@ -123,6 +122,7 @@
             this.textResultado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textResultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
+            this.textResultado.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.textResultado.Location = new System.Drawing.Point(254, 377);
             this.textResultado.Name = "textResultado";
             this.textResultado.Size = new System.Drawing.Size(214, 24);
@@ -196,9 +196,6 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "None";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Programa_02_MouseDown);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Programa_02_MouseMove);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Programa_02_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

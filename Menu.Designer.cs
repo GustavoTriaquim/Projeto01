@@ -132,9 +132,6 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "None";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseDown);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseMove);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Menu_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 
